@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My pdf viewer</title>
+    <script src="script.js"></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.min.js">
+</script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="my_pdf_viewer">
+        <!-- this is to hold the canva where  our element willl be -->
+        <div id="canvas_container">
+            <canvas id="pdf_renderer"></canvas>
+        </div>
+<!-- this is for navigating page to page in the document -->
+        <div id="navigation_controls">
+            <button id="go_previous">Previous</button>
+            <input type="number" value="1" id="current_page">
+            <button id="go_next">Next</button>
+        </div>
+<!-- this will help us to zoom our document for cleara visibilty -->
+        <div id="zoom_controls">
+            <button id="zoom_in">+</button>
+            <button id="zoom_out">-</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+#canvas_container{
+    width:800px;
+    height: 450px;
+overflow: auto;
+background-color: #333;
+text-align: center;
+border: solid blue 3px;
+
+}
